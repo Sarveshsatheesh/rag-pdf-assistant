@@ -17,7 +17,6 @@ os.environ['PINECONE_API_KEY'] = st.secrets['pinecone_api_key']
 os.environ['hf_token'] = st.secrets['hf_token']
 
 
-
 st.set_page_config(
     'PDF Insighter',page_icon = '📃'
 )
@@ -117,4 +116,5 @@ else:
 
         with st.chat_message('assistant'):
             st.write(answer)
+
 
