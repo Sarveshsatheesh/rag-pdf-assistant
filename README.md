@@ -2,7 +2,7 @@
 
 [**Try it live!**](https://rag-pdf-assistant-yxeoz3bziaq3pswbylhbdc.streamlit.app/) 🚀
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-orange?logo=streamlit)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-red)
 
