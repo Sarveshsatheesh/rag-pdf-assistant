@@ -1,0 +1,1 @@
+host = 'https://ragminiproj-3xi435j.svc.aped-4627-b74a.pinecone.io'
