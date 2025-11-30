@@ -1,7 +1,7 @@
 import streamlit as st
 import uuid
 import pdf_processor
-from dotenv import load_dotenv
+
 import os
 
 from langchain_pinecone import PineconeVectorStore
@@ -12,9 +12,10 @@ from langchain_core.output_parsers import StrOutputParser
 
 
 
+os.environ["GROQ_API_KEY"] = st.secrets['groqkey']
+os.environ['PINECONE_API_KEY'] = st.secrets['pinecone_api_key']
+os.environ['hf_token'] = st.secrets['hf_token']
 
-load_dotenv()
-os.environ["GROQ_API_KEY"] = os.getenv('groqkey')
 
 
 st.set_page_config(
@@ -116,3 +117,4 @@ else:
 
         with st.chat_message('assistant'):
             st.write(answer)
+
