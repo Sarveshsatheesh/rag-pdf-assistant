@@ -68,4 +68,4 @@ Check out the app here:
 
 ## 👨‍💻 Author
 
-**Sarvesh** — Building intuitive AI-powered document tools.
+**Sarvesh S**
